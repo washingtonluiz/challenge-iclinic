@@ -1,0 +1,34 @@
+.main{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.main .btn-start {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
+}
+
+.main__header {
+  color: var(--primaryColor);
+  margin-bottom: 11.85vh;
+  padding: 15px;
+  text-align: center;
+}
+
+.main__header--text {
+  font-size: 10vmin;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+.main__header--description {
+  font-size: 4vmin;
+  font-weight: 300;
+  line-height: 1em;
+}
+
+@media screen (min-width: 1200px) {
+  
+}
